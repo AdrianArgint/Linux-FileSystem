@@ -1,0 +1,11 @@
+Adrian Argint 
+313 CB
+Punctaj local:
+
+Functia main cuprinde elementele de baza, precum pointer catre radacina(root), un pointer asemanator pt directorul curent(CD), cat si alte variabile auxiliare cu ajutor carora am reusit sa rezolv tema.
+
+In primul rand, se citeste linie cu linie(getline) si se imparte dupa spatiu si enter. In functie de primul cuvant de pe linie, se acceseaza o functie. De asemenea se verifica daca comanda este buna, daca fisierele exista, dar si ca este director, respectiv fisier, in functie de ceea ce necesita comanda. 
+
+In "struct.h" se afla doar structura trie-ului, iar in "ttrie.h" antetele functiilor din "ttrie.c" care contine functiile de baza(insert, search, initializare samd).
+
+Functiile specifice comenzilor sunt implementate in "functii.c" cu antetele in "functii.h". "display" este echivalentul lui "ls"( in functie de parameterii) si se apeleaza recursiv. "removeFile" elimina un fisier/director in functie de f(0/1). CD_return este functia pentru "cd ..", adica trecem in directorul anterior(parinte). Functie "reverse" a fost folosita pentru ca la "pwd" salvam cuvantul intors, asa ca i-am dat "reverse". Foarte simplu au fost implemetate si functii de copiere/mutare a unui fisier, fiecare cu cate o functie auxiliara pentru a putea fi urmarite mai usor.
